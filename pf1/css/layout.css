@@ -197,7 +197,7 @@ p,a,li{
 /* 1 Breathing------------------------ */
 #Breathing{
 }
-#Breathing>div{
+#Breathing>div.up{
   max-width:600px;
   margin: 0 auto;
   padding: 80px 20px;
@@ -213,26 +213,19 @@ div.up{
 #Breathing>div>p{
 
 }
-#Breathing>div>li{
-
+#Breathing .zoom{
+  overflow: hidden;
 }
-#Breathing>img{
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  max-width: 100%;
-  height: 100%;
-  background-color: #fcfbfb77;
-  background-blend-mode: screen;
-
-
+#Breathing .zoom img{
+  transition: all 0.7s ease-out;
 }
-#Breathing>img:hover{
+#Breathing .zoom img:hover{
   cursor: pointer;
-  background-color: #fcfbfb77;
-  background-blend-mode: screen;
-  transition: all 0.8s ease-out;
-  /* transform: scale(1.1); */
+  display: block;
+  /* background-color: #fcfbfb77;
+  background-blend-mode: screen; */
+  transition: all 0.7s ease-out;
+  transform: scale(1.1);
       
 
 }
@@ -296,18 +289,27 @@ img.zoom{
   position: relative;
 }
 #Corporate .CorpA{
-  /* display: flex; */
+  display: flex;
 }
+#Corporate .CorpA:nth-child(1){
+  /* display: flex; */
+  background-color: yellow;
+}
+#Corporate .CorpA:nth-child(2){
+  /* display: flex; */
+  background-color: pink;
+}
+
 /* 공통 left */
-/* #Corporate .CorpA .left{
+#Corporate .CorpA .left{
   width: 45%;
   padding-right: 10%;
   box-sizing: border-box;
 
-} */
+}
 
 
-#Corporate .CorpA .left{
+/* #Corporate .CorpA .left{
   width: 45%;
   padding-right: 10%;
   box-sizing: border-box;
@@ -315,21 +317,22 @@ img.zoom{
   top: 177px;
   left: 71px;
   position: fixed;
-}
+} */
 
+/* #Corporate .CorpA .cA1{
+  color:red;
+} */
 
-
-#Corporate .CorpA .cA2{
-  z-index: 3;
-}
+/* #Corporate .CorpA .cA2{
+  color:blue;
+} */
 #Corporate .CorpA .cA20{
-  z-index: 4;
 }
 
 /* 공통 right */
 #Corporate .CorpA .right{
   width: 55%;
-  margin-left: 45%;
+  /* margin-left: 45%; */
 }
 #Corporate .CorpA .right>div{
   display: flex;
