@@ -213,20 +213,19 @@ div.up{
 #Breathing>div>p{
 
 }
-#Breathing .zoom{
+#Breathing .zoomin{
   overflow: hidden;
 }
-#Breathing .zoom img{
+#Breathing .zoomin img{
   transition: all 0.7s ease-out;
 }
-#Breathing .zoom img:hover{
+#Breathing .zoomin img:hover{
   cursor: pointer;
   display: block;
   /* background-color: #fcfbfb77;
   background-blend-mode: screen; */
   transition: all 0.7s ease-out;
   transform: scale(1.1);
-      
 
 }
 /* 공통-이미지효과 */
