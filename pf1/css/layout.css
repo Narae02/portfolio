@@ -196,6 +196,8 @@ p,a,li{
 }
 /* 1 Breathing------------------------ */
 #Breathing{
+  /* overflow: hidden; */
+
 }
 #Breathing>div.up{
   max-width:600px;
@@ -203,6 +205,25 @@ p,a,li{
   padding: 80px 20px;
   box-sizing: border-box;
 }
+/* #Breathing::before{
+  content: '';
+  background-image: url(../img/breathing.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 39vw;
+  display: block;
+  box-sizing: border-box;
+  transition: all 0.7s ease-out;
+}
+#Breathing:hover::before{
+  cursor: pointer;
+  /* display: block; */
+  /* transition: all 0.7s ease-out;
+  transform: scale(1.1);
+  border: 5px solid #093f;
+  background-blend-mode: multiply;
+  background-color: rgba(57, 56, 56, 0.84);}  */
 /* 공통-슬라이드 업 효과 */
 div.up{
 
@@ -210,28 +231,25 @@ div.up{
 #Breathing>div>h3{
 
 }
-#Breathing>div>p{
 
-}
 #Breathing .zoomin{
   overflow: hidden;
+  width: 100%;
+  height: 39vw;
 }
 #Breathing .zoomin img{
+  width: 100%;
+  height: 39vw;
   transition: all 0.7s ease-out;
 }
 #Breathing .zoomin img:hover{
   cursor: pointer;
   display: block;
-  /* background-color: #fcfbfb77;
-  background-blend-mode: screen; */
   transition: all 0.7s ease-out;
   transform: scale(1.1);
-
+  opacity: 0.6;
 }
-/* 공통-이미지효과 */
-img.zoom{
 
-}
 /* 2 Aesthetic------------------------ */
 #Aesthetic{
  margin-top: 80px;
@@ -251,15 +269,26 @@ img.zoom{
   justify-content: flex-start;
   margin-bottom: 75px;
   align-items: center;
+  overflow: hidden;
 }
 #Aesthetic>div.Craftsmanship>img{
-  height: 80%;
+  width: 58%;
+  /* height: 27.8vw; */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-
+  transition: all 0.7s ease-out;
+}
+#Aesthetic>div.Craftsmanship>img:hover{
+  cursor: pointer;
+  display: block;
+  transition: all 0.7s ease-out;
+  transform: scale(1.1);
+  opacity: 0.6;
+  
 }
 #Aesthetic>div.Craftsmanship>div{
+  width: 42%;
   padding-left: 5%;
   padding-top:3%;
   box-sizing: border-box;
