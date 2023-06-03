@@ -268,18 +268,18 @@ div.up{
   display: flex;
   justify-content: flex-start;
   margin-bottom: 75px;
-  align-items: center;
+  align-items: flex-start;
+}
+#Aesthetic>div.Craftsmanship>span{
+  width: 58%;
+  height: 27.8vw;
   overflow: hidden;
 }
-#Aesthetic>div.Craftsmanship>img{
-  width: 58%;
-  /* height: 27.8vw; */
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+#Aesthetic>div.Craftsmanship>span>img{
+  height: 27.8vw;
   transition: all 0.7s ease-out;
 }
-#Aesthetic>div.Craftsmanship>img:hover{
+#Aesthetic>div.Craftsmanship>span>img:hover{
   cursor: pointer;
   display: block;
   transition: all 0.7s ease-out;
