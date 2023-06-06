@@ -27,10 +27,9 @@ header .logo h1 a img{
 }
 nav{
   width: 48%;
-  height: 46px;
+  height: 43px;
   display: flex;
   justify-content:space-between;
-  
 }
 /* #header_bottom {
   justify-content: space-between;
