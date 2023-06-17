@@ -5,7 +5,7 @@ body{
 /* 상단헤더++++++++++++++++++++++++++++++++++ */
 header{
   width: 100%;
-  height: 200px;
+  height: 150px;
   display: flex;
   justify-content: space-between;
   padding: 20px 80px;
@@ -30,21 +30,14 @@ nav{
   height: 46px;
   display: flex;
   justify-content:space-between;
-  
+  border:1px solid #000;
 }
-/* #header_bottom {
-  justify-content: space-between;
-  width: 100%;
-  height: 43px !important;
-  background-color: #ff0f;
-  display: flex;
-  overflow: hidden;
-} */
+
 #header_bottom {
   width: 100%;
   height: 43px;
-  background-color: #ff0f;
   display: flex;
+  justify-content: space-between;
   overflow: hidden;
 }
 /* header nav.over{

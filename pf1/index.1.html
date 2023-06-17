@@ -11,22 +11,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script>
     $(document).ready(function(){
-      // $("header nav .gnb").hover(
-      //   function(){
-      //     $("header nav").addClass("over");
-      //   },
-      //   function(){
-      //     $("header nav").removeClass("over");
-      //   }   
-      // );
-
       const gnb = $('.gnb');
 			gnb.mouseenter(function(){ //마우스 오버시
 				$('#header_bottom').stop().animate({'height':'300px'}, 300);
 			});
 
 			gnb.mouseleave(function(){ //마우스 아웃시
-				$('#header_bottom').stop().animate({'height':'70px'}, 300);
+				$('#header_bottom').stop().animate({'height':'60px'}, 300);
 			});
     });
 
@@ -67,30 +58,6 @@
         </div>
       </nav>
   </div>
-    <!-- <div id="header_bottom">
-    <nav>
-        <ul  class="gnb">
-          <li><a href="#" title="">한마당</a><ul class="sub">
-            <li><a href="#" title="">천연재료</a></li>
-            <li><a href="#" title="">제품시리즈</a></li>
-          </ul></li>
-          <li><a href="#" title="">회사소개</a> <ul class="sub">
-            <li><a href="#" title="">브랜드 이야기</a></li>
-            <li><a href="#" title="">한마당의 철학</a></li>
-          </ul></li>
-          <li><a href="#" title="">고객상담</a> <ul class="sub">
-            <li><a href="#" title="">자주묻는 질문</a></li>
-            <li><a href="#" title="">연락처</a></li>
-            <li><a href="#" title="">판매매장</a></li>
-          </ul></li>
-        </ul>
-
-        <ul class="lnb">
-          <li><a href="" title="검색"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-          <li><a href="" title="한국어버전">Kr</a></li>
-          <li><a href="" title="영어버전">En</a></li>
-        </ul>
-    </nav></div> -->
   </header>
   <!-- 메인페이지 시작 -->
   <main>
