@@ -31,7 +31,6 @@ nav{
   display: flex;
   justify-content:space-between;
 }
-
 #header_bottom {
   width: 100%;
   height: 60px;
@@ -42,8 +41,7 @@ nav{
   overflow: hidden;
   background-color: #fff;
   position: relative;
-  z-index: 3;
-
+  z-index: 3; 
 }
 nav .gnb ul{
   display: flex;
@@ -76,7 +74,6 @@ nav .gnb>ul>li:hover:nth-child(1):after{
   content: '';
   transition: all 0.3s ease-out;
 }
-
 nav .gnb>ul>li:hover:nth-child(2):after,nav .gnb>ul>li:hover:nth-child(3):after{
   width: 65px;
   height: 2px;
@@ -92,7 +89,6 @@ nav .gnb ul li a{
 }
 nav .gnb ul li ul{
   display: block;
-
 }
 nav .gnb ul li ul li{
   padding: 10px 0;
@@ -141,7 +137,6 @@ p,a,li{
 }
 #container{
   margin: 0 auto;
-  
 }
 /* 자세히 보기 버튼 애니 */
 .more1{
@@ -178,19 +173,16 @@ p,a,li{
   0%{
    width: 0%;
    height: 2px;
-
   }
   30%{
    width: 100%;
    height: 2px;
-
   }
   100%{
     width: 100%;
     height: 2px;
     /* transform:translateX(100%) ; */
   }
-  
 }
 #container div{
   max-width: 1800px;
@@ -203,7 +195,6 @@ p,a,li{
 /* 1 Breathing------------------------ */
 #Breathing{
   /* overflow: hidden; */
-
 }
 #Breathing>div.up{
   max-width:600px;
@@ -218,7 +209,6 @@ div.up{
 #Breathing>div>h3{
 
 }
-
 #Breathing .zoomin{
   overflow: hidden;
   width: 100%;
@@ -271,7 +261,6 @@ div.up{
   transition: all 0.7s ease-out;
   transform: scale(1.1);
   opacity: 0.6;
-  
 }
 #Aesthetic>div.Craftsmanship>div{
   width: 42%;
@@ -314,7 +303,6 @@ div.up{
   /* display: flex; */
   background-color: pink;
 }
-
 /* 공통 left */
 #Corporate .CorpA .left{
   width: 33%;
@@ -333,7 +321,6 @@ div.up{
 }
 #Corporate .CorpA .cA20{
 }
-
 /* 공통 right */
 #Corporate .CorpA .right{
   width: 55%;
@@ -365,7 +352,6 @@ div.up{
 #Corporate .CorpA .cA10>div>ul>li{
   
 }
-
 #Corporate .CorpA .cA2{
   margin-top: 80px;
 }
@@ -381,7 +367,6 @@ div.up{
 #Corporate .CorpA .cA2 li a{
   
 }
-
 #Corporate .CorpA .cA20{
   
 }
@@ -399,7 +384,6 @@ div.up{
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-
 }
 #Corporate .CorpA .cA20 div ul li{
   
@@ -434,7 +418,6 @@ div.up{
   /* position: absolute;
   bottom: 0;
   right: 0; */
-
 }
 #last .pd li a{
 color: #fff;
@@ -442,7 +425,6 @@ color: #fff;
 /* 5 last------------------------ */
 #insta{
   margin: 8% 0;
-
 }
 #insta div{
   width: 100%;
@@ -455,30 +437,25 @@ color: #fff;
   box-sizing: border-box;
   position: relative;
 }
-
 #insta div a img{width:100%;}
 #insta div a p.go{
-background-color: rgba(0, 0, 0, 0.668);
-position: absolute;
-top:0.5%;
-left: 3%;
-display: block;
-width: 94%;
-height: 97%;
-transition: all 0.5s;
-opacity: 0;
-text-align: center;
-font-size: 30px;
-line-height: 8;
-
+  background-color: rgba(0, 0, 0, 0.668);
+  position: absolute;
+  top:0.5%;
+  left: 3%;
+  display: block;
+  width: 94%;
+  height: 97%;
+  transition: all 0.5s;
+  opacity: 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 8;
 }
 #insta div a:hover>.go{
   opacity:1;
   color: #fff;
 }
-
-
-
 /* 푸터영역++++++++++++++++++++++++++++++++++ */
 footer{
   width: 100%;
@@ -510,13 +487,10 @@ font-size: 30px;
 .list>li{
   width: 33%;
   font-weight: 800;
-
 }
 .list li ul li{
   font-weight: normal;
-
 }
-
 .list>li>ul{
   border-top:1px solid #333;
   width: 94%;
@@ -525,14 +499,12 @@ font-size: 30px;
 .list>li>a>ul{
   width: 100%;
 }
-
 footer div:nth-child(3)>li:nth-child(1){
   font-weight: 800;
 }
 footer div:nth-child(3)>li:nth-child(2){
   color: #999;
 }
-
 footer div:nth-child(4){
   /* font-weight: 500; */
 }
